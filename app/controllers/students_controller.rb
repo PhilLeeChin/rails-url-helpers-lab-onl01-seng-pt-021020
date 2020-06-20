@@ -15,7 +15,7 @@ class StudentsController < ApplicationController
     @students.save
     redirect_to students_path(@students)
   end
-  
+
   private
 
     def set_student
